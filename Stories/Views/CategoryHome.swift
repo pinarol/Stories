@@ -31,7 +31,7 @@ struct CategoryHome: View {
                 .listRowInsets(EdgeInsets())
             }
             .listStyle(.inset)
-            .navigationTitle("Children Books")
+            .navigationTitle("Stories for Kids")
 
         }.listRowInsets(EdgeInsets())
     }
