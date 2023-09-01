@@ -6,8 +6,29 @@
 //
 
 import Foundation
+import Combine
 
-var booksList: [Book] { DataParser.books }
+
+final class ModelData: ObservableObject {
+    @Published var books: [Book] = DataParser.books
+    var categories: [String] = ["Feelings", "Bedtime", "Friendship", "Family"]
+    var bookCategories: [String: [Book]] {
+        Dictionary(
+            grouping: books,
+            by: { value in
+                for category in categories {
+                    if value.tags.contains(category) {
+                        return category
+                    }
+                }
+                return "other"
+            }
+        )
+    }
+    var featuredBooks: [Book] {
+        books.filter { $0.isFeatured }
+    }
+}
 
 class DataParser {
     
