@@ -18,6 +18,9 @@
 		919AAFFD2AA213BB0052F0A6 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919AAFFC2AA213BB0052F0A6 /* Book.swift */; };
 		919AB0002AA222C90052F0A6 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919AAFFF2AA222C90052F0A6 /* DataParser.swift */; };
 		919AB0022AA2234B0052F0A6 /* DataParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919AB0012AA2234B0052F0A6 /* DataParserTests.swift */; };
+		919AB0052AA23D4C0052F0A6 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919AB0042AA23D4C0052F0A6 /* CategoryHome.swift */; };
+		919AB0072AA23E290052F0A6 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919AB0062AA23E290052F0A6 /* CategoryRow.swift */; };
+		919AB0092AA23FB80052F0A6 /* BookItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919AB0082AA23FB80052F0A6 /* BookItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		919AAFFC2AA213BB0052F0A6 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		919AAFFF2AA222C90052F0A6 /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
 		919AB0012AA2234B0052F0A6 /* DataParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParserTests.swift; sourceTree = "<group>"; };
+		919AB0042AA23D4C0052F0A6 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		919AB0062AA23E290052F0A6 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		919AB0082AA23FB80052F0A6 /* BookItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,7 @@
 		919AAFCD2AA0CBA20052F0A6 /* Stories */ = {
 			isa = PBXGroup;
 			children = (
+				919AB0032AA23D300052F0A6 /* Views */,
 				919AAFFE2AA222A80052F0A6 /* Util */,
 				919AAFFB2AA213AD0052F0A6 /* Model */,
 				919AAFCE2AA0CBA20052F0A6 /* StoriesApp.swift */,
@@ -161,6 +168,16 @@
 				919AAFFF2AA222C90052F0A6 /* DataParser.swift */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		919AB0032AA23D300052F0A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				919AB0042AA23D4C0052F0A6 /* CategoryHome.swift */,
+				919AB0062AA23E290052F0A6 /* CategoryRow.swift */,
+				919AB0082AA23FB80052F0A6 /* BookItem.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,7 +314,10 @@
 				919AAFD12AA0CBA20052F0A6 /* ContentView.swift in Sources */,
 				919AAFCF2AA0CBA20052F0A6 /* StoriesApp.swift in Sources */,
 				919AB0002AA222C90052F0A6 /* DataParser.swift in Sources */,
+				919AB0092AA23FB80052F0A6 /* BookItem.swift in Sources */,
 				919AAFFD2AA213BB0052F0A6 /* Book.swift in Sources */,
+				919AB0072AA23E290052F0A6 /* CategoryRow.swift in Sources */,
+				919AB0052AA23D4C0052F0A6 /* CategoryHome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

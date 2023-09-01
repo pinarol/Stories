@@ -19,7 +19,7 @@ struct Book: Codable, Identifiable {
         }
     }
     
-    struct Image: Codable  {
+    struct PosterImage: Codable  {
         let url: URL
     }
     
@@ -33,7 +33,7 @@ struct Book: Codable, Identifiable {
     let isFavorite: Bool
     let interestAge: InterestAge
     let description: String
-    let poster: Image
+    let poster: PosterImage
     
     static func == (lhs: Book, rhs: Book) -> Bool {
         lhs.id == rhs.id
