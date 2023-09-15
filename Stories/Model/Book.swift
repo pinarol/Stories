@@ -19,6 +19,13 @@ struct Book: Codable, Identifiable {
         }
     }
     
+    struct BookColor: Codable {
+        let r: Double
+        let g: Double
+        let b: Double
+        let alpha: Double
+    }
+    
     struct PosterImage: Codable  {
         let url: URL
     }
@@ -34,6 +41,11 @@ struct Book: Codable, Identifiable {
     let interestAge: InterestAge
     let description: String
     let poster: PosterImage
+    let themeColor: BookColor
+    
+    var color: Color {
+        Color(red: themeColor.r/255, green: themeColor.g/255, blue: themeColor.b/255, opacity: themeColor.alpha)
+    }
     
     static func == (lhs: Book, rhs: Book) -> Bool {
         lhs.id == rhs.id

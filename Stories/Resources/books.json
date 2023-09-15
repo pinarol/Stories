@@ -12,6 +12,12 @@
             "min": 0,
             "max": 2
         },
+        "themeColor": {
+            "r": 70,
+            "g": 113,
+            "b": 160,
+            "alpha": 0.5
+        },
         "source": "https://www.booktrust.org.uk/book/w/wheres-my-santa/",
         "description": "Where's Santa? He was here a moment ago! Children will love finding Santa and revelling in Christmas in this board book that is full of interesting textures to explore, from glittery snowprints to a snowman's felt hat and, finally, the thick white beard of Father Christmas. \nThis book works particularly well for under 1s about to experience their very first Christmas: even if they don't fully understand what's going on, it's an enjoyable introduction and a cosy way to snuggle up on cold, wintry days. The text is large and well-spaced and the pages are clean and uncluttered, with simple and charming illustrations, so it's a calming read – despite being fun – and won't overwhelm. \nToddlers will also enjoy the book and getting to know the Christmas characters that they will learn to love more and more over the coming years.",
         "poster": {
@@ -30,6 +36,12 @@
         "interestAge": {
             "min": 1,
             "max": 3
+        },
+        "themeColor": {
+            "r": 205,
+            "g": 201,
+            "b": 197,
+            "alpha": 1
         },
         "source": "https://www.booktrust.org.uk/book/j/joy2/",
         "description": "It is a pleasure to read a book which captures a purely happy, upbeat mood. The beaming kitten’s exuberance as it zooms, zim-zams, jingles and wrangles its onomatopoeic way across the pages in pursuit of a favourite toy will bring a smile to both parent and child. \nSoft, watercolour illustrations in warm colours bring the rhyming, rhythmic words to life and introduce other characters who block or help the kitten on his way. Even a big, bumpy tumble is humorous and doesn’t keep the kitten’s bounce down for long. Mum (or Dad – it is not specified) is there to pick him up and brush him down, so the kitten can head off, full of joy once again. \nThis warm, fun and funny book is the perfect comfort read for a gloomy day. Sharing it with a parent, children will be introduced to rhyme, rhythm and the subtle shifts in pace and tone that convey changes in narrative voice. It could even be used for older primary classes to introduce these concepts, in the same way that a poem might be used. It captures the ups and downs of happy toddler life in a reassuring way.",
@@ -50,6 +62,12 @@
             "min": 0,
             "max": 3
         },
+        "themeColor": {
+            "r": 235,
+            "g": 183,
+            "b": 69,
+            "alpha": 0.7
+        },
         "source": "https://www.booktrust.org.uk/book/m/meet-happy-bear/",
         "description": "Happy Bear is smiling, until suddenly – he’s not! How can we make Happy Bear happy again? Fortunately, Little Mouse is on hand to entertain Happy Bear until mummy comes along for a cuddle.\n\nThis cute board book is ideal for babies, and the papercraft that turns Bear’s face from happy to sad is well-made and durable. A sweet first book for little ones that ends in a hug.",
         "poster": {
@@ -68,6 +86,12 @@
         "interestAge": {
             "min": 1,
             "max": 3
+        },
+        "themeColor": {
+            "r": 215,
+            "g": 83,
+            "b": 96,
+            "alpha": 0.5
         },
         "source": "https://www.booktrust.org.uk/book/p/poor-little-rabbit/",
         "description": "Little Rabbit has fallen over. He's hurt his elbow and it's bleeding. Oh no! A plaster will definitely help – and maybe you could also try saying the magic rhyme...\n\nMuhle's ingenious Little Rabbit books aim to make reading a really interactive experience, and demonstrate how interactive books for little ones can be original and accessible at the same time.\n\nIn this story, children can play along with making Little Rabbit better as they wipe away his tears, brush off the dirt and stick a plaster on his elbow – simple gestures, interacting with the book as a tool as well as a story, that take an ordinary event and make it relatable for toddlers.\n\nThe brightly coloured pages look really fresh and it's an imaginative way to engage little readers.",
@@ -88,6 +112,12 @@
             "min": 2,
             "max": 3
         },
+        "themeColor": {
+            "r": 121,
+            "g": 166,
+            "b": 215,
+            "alpha": 0.5
+        },
         "source": "https://www.booktrust.org.uk/book/w/what-shall-we-do-with-the-boo-hoo-baby/",
         "description": "A baby is crying really rather loudly. What should the animals do?\n\nThe duck offers a rubber duckie as a distraction, but it’s no good; the other animals suggest that the baby might be hungry, but he doesn’t seem to fancy a pineapple, ice cream or even cat food. A bath’s no help and neither is playing… Might it be that the Boo-Hoo Baby needs a nap?\n\nA picture book guide to diagnosing all the reasons babies usually cry, this is a delightful board book, perfect for reading again and again to little ones. Reassuring and cute at the same time!",
         "poster": {
@@ -106,6 +136,12 @@
         "interestAge": {
             "min": 4,
             "max": 5
+        },
+        "themeColor": {
+            "r": 255,
+            "g": 252,
+            "b": 226,
+            "alpha": 1
         },
         "source": "https://www.booktrust.org.uk/book/i/i-heart-bedtime-martha-and-the-bunny-brothers/",
         "description": "Martha has a lot of fun while getting her two brothers, Monty and Pip, off to bed!\n\nColourful and detailed illustrations that young children will love to explore.\n\nEnjoy singing 'The Bedtime Bunnies Song!' together.",
@@ -126,6 +162,12 @@
             "min": 0,
             "max": 3
         },
+        "themeColor": {
+            "r": 175,
+            "g": 213,
+            "b": 218,
+            "alpha": 1
+        },
         "source": "https://www.booktrust.org.uk/book/t/tickle-my-ears/",
         "description": "Jörg Mühle's Tickle My Ears is a great interactive bedtime story, made to help you bond with your child at bedtime.\n\nYou can help little rabbit go through all the steps that lead towards the land of nod - from putting on his pyjamas to fluffing up his pillows, stroking his fur to tucking him into bed.\n\nWith an absorbing story and sweet illustrations, this is sure to be a go-to board book for the end of the day.",
         "poster": {
@@ -144,6 +186,12 @@
         "interestAge": {
             "min": 0,
             "max": 3
+        },
+        "themeColor": {
+            "r": 72,
+            "g": 59,
+            "b": 118,
+            "alpha": 0.3
         },
         "source": "https://www.booktrust.org.uk/book/t/teddy-bedtime/",
         "description": "Teddies like to play, jump, sing and laugh, then go to bed.\n\nColourful illustrations in this engaging board book.\n\nRhyming text that young children will love to hear at bedtime.",
@@ -164,6 +212,12 @@
             "min": 0,
             "max": 5
         },
+        "themeColor": {
+            "r": 248,
+            "g": 247,
+            "b": 228,
+            "alpha": 1
+        },
         "source": "https://www.booktrust.org.uk/book/m/mannie-and-the-long-brave-day/",
         "description": "A collaboration between two author/illustrators who are friends, which also celebrates the friendship a small child gets from her toys, with whom she shares her adventures.\n\nMannie takes her doll and her toy elephant Lilliput, together with a special box of useful things, on an adventure along the road, through the trees, across the river, and up the hill before she feels frightened by the sun going behind the clouds and the thunder rumbling. Brave Lilliput saves them and brings them all safely home at bedtime.\n\nThe delightful soft focus illustrations and alliterative, repetitive phrases encouraging readers' participation capture the inconsequential importance to small people of their favourite possessions, and special toys. Dangers are faced and resolution comfortingly offered.\n\nA magical story that celebrates friendship, courage and the wonder of a child's imagination.",
         "poster": {
@@ -182,6 +236,12 @@
         "interestAge": {
             "min": 0,
             "max": 5
+        },
+        "themeColor": {
+            "r": 76,
+            "g": 166,
+            "b": 166,
+            "alpha": 0.5
         },
         "source": "https://www.booktrust.org.uk/book/t/together/",
         "description": "What makes a perfect day? For the grown-up sea otter, it can be watching a special sunrise, playing, laughing, learning new things or just looking at the clouds float by. As long as the grown-up sea otter is with the baby sea otter, they can be doing anything or nothing. It’s being together that really matters.\n\nAlthough not specifically a bedtime story, the muted colours and gentle water scenes exude calm and tranquillity. The book begins at sunrise and ends with a setting sun and a starry, night sky and, with few words, it is the pictures that really do the talking. As an 'end of day' shared read, it would offer an ideal space for youngsters to look back at what has happened during their own day.\n\nWith a softly padded cover and silver foil detailing, this sturdy board book is perfect for little fingers to explore, while the almost unbearably cute illustrations will melt the heart of any grown-up who treasures the time they spend with their little ones.\n\nAn unashamedly sentimental celebration of love and togetherness.",

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		915638A22AB48C33005BD866 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915638A12AB48C33005BD866 /* BookDetailView.swift */; };
 		919AAFCF2AA0CBA20052F0A6 /* StoriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919AAFCE2AA0CBA20052F0A6 /* StoriesApp.swift */; };
 		919AAFD12AA0CBA20052F0A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919AAFD02AA0CBA20052F0A6 /* ContentView.swift */; };
 		919AAFD32AA0CBA30052F0A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919AAFD22AA0CBA30052F0A6 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		915638A12AB48C33005BD866 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
 		919AAFCB2AA0CBA20052F0A6 /* Stories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		919AAFCE2AA0CBA20052F0A6 /* StoriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesApp.swift; sourceTree = "<group>"; };
 		919AAFD02AA0CBA20052F0A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 				919AB0042AA23D4C0052F0A6 /* CategoryHome.swift */,
 				919AB0062AA23E290052F0A6 /* CategoryRow.swift */,
 				919AB0082AA23FB80052F0A6 /* BookItem.swift */,
+				915638A12AB48C33005BD866 /* BookDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				915638A22AB48C33005BD866 /* BookDetailView.swift in Sources */,
 				919AAFD12AA0CBA20052F0A6 /* ContentView.swift in Sources */,
 				919AAFCF2AA0CBA20052F0A6 /* StoriesApp.swift in Sources */,
 				919AB0002AA222C90052F0A6 /* DataParser.swift in Sources */,
