@@ -36,16 +36,13 @@ struct CategoryHome: View {
     var body: some View {
         NavigationView {
             List {
-                AsyncImage(url: modelData.featuredBooks[0].poster.url) { image in
-                    image.resizable()
-                    image.scaledToFill()
-                    image.clipped()
-                    image.listRowInsets(EdgeInsets())
-                } placeholder: {
-                    ProgressView()
-                }
-                .frame(maxHeight: 200)
-                .clipped()
+                Image("header")
+                    .resizable()
+                    .scaledToFill()
+                    .clipped()
+                    .listRowInsets(EdgeInsets())
+                    .frame(maxHeight: 200)
+                    .clipped()
                 
                 Toggle(isOn: $showFavoritesOnly) {
                     Text("Favorites only")
@@ -60,7 +57,8 @@ struct CategoryHome: View {
             .listStyle(.inset)
             .navigationTitle("Stories for Kids")
 
-        }.listRowInsets(EdgeInsets())
+        }
+        .listRowInsets(EdgeInsets())
     }
 }
 
