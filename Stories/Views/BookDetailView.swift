@@ -54,6 +54,7 @@ struct BookDetailView: View {
                             .font(.subheadline)
                         Spacer()
                         Text(tags)
+                            .multilineTextAlignment(.center)
                             .font(.subheadline)
                             .foregroundColor(.accentColor)
                     }.padding(Constants.padding)

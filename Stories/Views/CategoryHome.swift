@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CategoryHome: View {
     @EnvironmentObject var modelData: ModelData
-    @State private var showFavoritesOnly = true
+    @State private var showFavoritesOnly = false
     
     var categories: [String] = ["Bedtime", "Friendship", "Family", "Feelings", "Holidays"]
 
