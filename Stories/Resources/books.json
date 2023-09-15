@@ -107,7 +107,7 @@
         "publisher": "Macmillan Children’s Books",
         "id": 1005,
         "isFeatured": false,
-        "isFavorite": false,
+        "isFavorite": true,
         "interestAge": {
             "min": 2,
             "max": 3
@@ -132,7 +132,7 @@
         "publisher": "HarperCollins",
         "id": 1006,
         "isFeatured": false,
-        "isFavorite": false,
+        "isFavorite": true,
         "interestAge": {
             "min": 4,
             "max": 5
@@ -157,7 +157,7 @@
         "publisher": "Gecko Press",
         "id": 1007,
         "isFeatured": true,
-        "isFavorite": false,
+        "isFavorite": true,
         "interestAge": {
             "min": 0,
             "max": 3
@@ -232,7 +232,7 @@
         "publisher": "Nosy Crow",
         "id": 1011,
         "isFeatured": false,
-        "isFavorite": false,
+        "isFavorite": true,
         "interestAge": {
             "min": 0,
             "max": 5

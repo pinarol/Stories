@@ -20,11 +20,17 @@ struct BookItem: View {
             .clipped()
             .frame(width: 155, height: 155)
             .cornerRadius(5)
-            
-            Text(book.title)
-                .foregroundColor(.primary)
-                .font(.caption)
-                .frame(maxWidth: 155, alignment: .leading)
+            HStack {
+                Text(book.title)
+                    .foregroundColor(.primary)
+                    .font(.caption)
+                Spacer()
+                if book.isFavorite {
+                    Image(systemName: "star.fill")
+                        .foregroundColor(.yellow)
+                }
+            }
+            .frame(maxWidth: 155, alignment: .leading)
         }
         .padding(.leading, 15)
     }
