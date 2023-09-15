@@ -11,7 +11,7 @@ import Combine
 
 final class ModelData: ObservableObject {
     @Published var books: [Book] = DataParser.books
-    var categories: [String] = ["Bedtime", "Friendship", "Family", "Feelings", "Christmas"]
+    var categories: [String] = ["Bedtime", "Friendship", "Family", "Feelings", "Holidays"]
     var bookCategories: [String: [Book]] {
         Dictionary(
             grouping: books,

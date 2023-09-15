@@ -11,7 +11,7 @@ struct CategoryHome: View {
     @EnvironmentObject var modelData: ModelData
     @State private var showFavoritesOnly = true
     
-    var categories: [String] = ["Bedtime", "Friendship", "Family", "Feelings", "Christmas"]
+    var categories: [String] = ["Bedtime", "Friendship", "Family", "Feelings", "Holidays"]
 
     var filteredBooks: [Book] {
         modelData.books.filter { book in
